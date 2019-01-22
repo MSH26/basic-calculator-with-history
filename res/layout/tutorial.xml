@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="wrap_content">
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	   	android:background="#FFF" >
+	   		    
+	    <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/tutorialMemoryHeader"
+	    	android:textColor="#FFF"
+	    	android:typeface="sans"
+	    	android:background="#00F"/>
+	    <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/tutorialMemory"
+	    	android:textColor="#000"/>
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/tutorialPercentageHeader"
+	    	android:textColor="#FFF"
+	    	android:typeface="sans"
+	    	android:background="#00F"/>
+	    <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/tutorialPercentage"
+	    	android:textColor="#000"/>
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/tutorialAnswerHeader"
+	    	android:textColor="#FFF"
+	    	android:typeface="sans"
+	    	android:background="#00F"/>
+	    <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/tutorialAnswer"
+	    	android:textColor="#000"/>
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/tutorialClearAndDeleteHeader"
+	    	android:textColor="#FFF"
+	    	android:typeface="sans"
+	    	android:background="#00F"/>
+	    <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/tutorialClearAndDelete"
+	    	android:textColor="#000"/>
+	
+	</LinearLayout>
+</ScrollView>
